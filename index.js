@@ -11,19 +11,17 @@ var path = require('path'),
 	gulp = require('gulp');
 
 
-// enable colors in console
-require('tty-colors');
+//gulp.removeAllListeners();
+console.log(gulp);
+//console.log(gulp.tasks.default.dep[0]);
 
-
-gulp.task('static', function () {
-	gulp.removeAllListeners();
-	console.log(gulp);
-	console.log(gulp.tasks.default.dep[0]);
-});
-
-gulp.task('default', ['static'], function () {
-
-});
+//gulp.task('static', function () {
+//
+//});
+//
+//gulp.task('default', ['static'], function () {
+//
+//});
 
 
 // main entry point
